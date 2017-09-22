@@ -7,7 +7,7 @@ NGINX server Docker image for Raspberry Pi
 About
 =====
 
-[NGINX](https://www.nginx.com) web/reverse-proxy server in a `Docker` container.
+[NGINX](https://www.nginx.com) web/reverse-proxy server in the `Docker` container.
 
 Upstream Links
 --------------
