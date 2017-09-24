@@ -18,7 +18,7 @@ RUN chmod +x /run.sh
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-VOLUME ["/etc/nginx"]
+VOLUME ["/var/cache/nginx"]
 
 STOPSIGNAL SIGTERM
 
