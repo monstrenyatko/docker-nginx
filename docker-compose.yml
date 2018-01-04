@@ -5,6 +5,7 @@ services:
     container_name: nginx
 #    volumes:
 #      - ./conf.d:/etc/nginx/conf.d:ro
+#      - ./stream.d:/etc/nginx/stream.d:ro
     ports:
       - 8000:80
     restart: unless-stopped

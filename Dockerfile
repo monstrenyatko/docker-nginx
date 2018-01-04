@@ -3,7 +3,7 @@ FROM hypriot/rpi-alpine:3.6
 MAINTAINER Oleg Kovalenko <monstrenyatko@gmail.com>
 
 RUN apk update && \
-    apk add --no-cache nginx shadow && \
+    apk add --no-cache nginx nginx-mod-stream shadow && \
     rm -rf /etc/nginx/nginx.conf && \
     \
     # forward request and error logs to docker log collector
