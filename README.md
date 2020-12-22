@@ -1,8 +1,7 @@
 NGINX server Docker image
 =========================
 
-[![Build Status](https://travis-ci.org/monstrenyatko/docker-nginx.svg?branch=master)](https://travis-ci.org/monstrenyatko/docker-nginx)
-
+[![](https://github.com/monstrenyatko/docker-nginx/workflows/ci/badge.svg?branch=master)](https://github.com/monstrenyatko/docker-nginx/actions?query=workflow%3Aci)
 
 About
 =====
