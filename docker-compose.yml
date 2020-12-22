@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   nginx:
     image: ${DOCKER_REGISTRY}monstrenyatko/nginx
@@ -10,3 +9,6 @@ services:
     ports:
       - 8000:80
     restart: unless-stopped
+    environment:
+      - APP_UID=${NGINX_UID}
+      - APP_GID=${NGINX_GID}
